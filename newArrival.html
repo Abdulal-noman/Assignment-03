@@ -82,13 +82,8 @@
                 </div>
             </div>
     </nav>
-  
     <!-- banner section -->
     <section>
-        <div class="mx-auto md:container"> <span class="loading loading-ring loading-xs"></span>
-            <span class="loading loading-ring loading-sm"></span>
-            <span class="loading loading-ring loading-md"></span>
-            <span class="loading loading-ring loading-lg"></span></div>
         <div class="mx-auto my-24 hero md:container">
             <div class="text-center hero-content">
                 <div class="">
@@ -112,7 +107,6 @@
 </header>
 
 <body class="sm:p-2">
-    
     <!-- Services -->
     <section class="mx-auto my-24 md:container">
 
@@ -159,182 +153,130 @@
         </div>
     </section>
 
-    
-   
-
     <!-- product section -->
 
     <section class="py-10 bg-gray">
-
         <div class="mx-auto md:container">
             <h4 class="my-10 text-xl font-bold text-green md:text-3xl">Product</h4>
-            <!-- this is a grid section in large screen have total 5 colum. first box is contain colspan 2 and row spen 3  the total 10 box . other 9 box are normal  -->
-
-            <div class="grid grid-rows-3 gap-2 md:grid-cols-5 ">
-                <!-- big box -->
-                <div class="col-span-2 row-span-3 rounded-xl">
-                    <!-- one gradint color + p+ h3 + button + img -->
-                    <div class="bg-gradient-to-br from-[#90EE90] to-white-50 ">
-                        
-                        <h3 class="my-5 text-xl font-bold text-center text-white">30% oFF</h3>
-                        <p class="text-lg">Discover the best fresh vegetables in the market <br>Discover the best fresh vegetables in the market  </p>
-                        <button class="px-10 btn btn-white">Bay Now</button>
+            
+            <!-- This is a grid section, which has 5 columns in large screen and 2 columns in small screens -->
+            <div class="grid grid-cols-5 grid-rows-3 gap-2 sm:grid-cols-2">
+                <!-- Big box (spans 2 columns and 3 rows) -->
+                <div class="col-span-2 row-span-3 rounded-xl sm:col-span-2 sm:row-span-1 sm:w-full">
+                    <div class="bg-gradient-to-br from-[#90EE90] to-white-50">
+                        <h3 class="my-5 text-xl font-bold text-center text-white">30% OFF</h3>
+                        <p class="text-lg">Discover the best fresh vegetables in the market <br>Discover the best fresh vegetables in the market</p>
+                        <button class="px-10 btn btn-white">Buy Now</button>
                         <img src="image/vegetable-offer.png" alt="" class="p-5 ml-5">
-
                     </div>
-
                 </div>
-
-                <!-- small box -->
+    
+                <!-- Small boxes (normal size) -->
+                <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
+                    <div>
+                        <img src="image/onion.png" alt="" class="w-20 h-20">
+                    </div>
+                    <div>
+                        <i class="text-orange-500 fa-regular fa-star"></i>
+                        <h4 class="text-xl font-bold">Onion 1 kg</h4>
+                        <p class="font-bold">$49.99</p>
+                    </div>
+                </div>
                 
                 <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
                     <div>
-                        <!-- image -->
                         <img src="image/potato.png" alt="" class="w-20 h-20">
                     </div>
                     <div>
-                        <!--star+ other text  -->
                         <i class="text-orange-500 fa-regular fa-star"></i>
-                        <h4 class="text-xl font-bold">Onion 1 kg</h4>
+                        <h4 class="text-xl font-bold">Potato 1 kg</h4>
                         <p class="font-bold">$49.99</p>
-
-
                     </div>
-
                 </div>
-                <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
+    
+                <!-- Hidden on small screens (will be hidden in mobile view) -->
+                <div class="flex items-center gap-3 p-2 bg-white rounded-xl sm:hidden">
                     <div>
-                        <!-- image -->
                         <img src="image/tomato.png" alt="" class="w-20 h-20">
                     </div>
                     <div>
-                        <!--star+ other text  -->
                         <i class="text-orange-500 fa-regular fa-star"></i>
-                        <h4 class="text-xl font-bold">Onion 1 kg</h4>
+                        <h4 class="text-xl font-bold">Tomato 1 kg</h4>
                         <p class="font-bold">$49.99</p>
-
-
                     </div>
-
                 </div>
-                  <!-- small box -->
-                  <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
+    
+                <!-- Repeat small boxes -->
+                <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
                     <div>
-                        <!-- image -->
                         <img src="image/onion.png" alt="" class="w-20 h-20">
                     </div>
                     <div>
-                        <!--star+ other text  -->
                         <i class="text-orange-500 fa-regular fa-star"></i>
                         <h4 class="text-xl font-bold">Onion 1 kg</h4>
                         <p class="font-bold">$49.99</p>
-
-
                     </div>
-
                 </div>
+    
                 <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
                     <div>
-                        <!-- image -->
                         <img src="image/potato.png" alt="" class="w-20 h-20">
                     </div>
                     <div>
-                        <!--star+ other text  -->
                         <i class="text-orange-500 fa-regular fa-star"></i>
-                        <h4 class="text-xl font-bold">Onion 1 kg</h4>
+                        <h4 class="text-xl font-bold">Potato 1 kg</h4>
                         <p class="font-bold">$49.99</p>
-
-
                     </div>
-
                 </div>
+    
                 <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
                     <div>
-                        <!-- image -->
                         <img src="image/tomato.png" alt="" class="w-20 h-20">
                     </div>
                     <div>
-                        <!--star+ other text  -->
                         <i class="text-orange-500 fa-regular fa-star"></i>
-                        <h4 class="text-xl font-bold">Onion 1 kg</h4>
+                        <h4 class="text-xl font-bold">Tomato 1 kg</h4>
                         <p class="font-bold">$49.99</p>
-
-
                     </div>
-
                 </div>
-                  <!-- small box -->
-                  <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
+    
+                <!-- More small boxes -->
+                <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
                     <div>
-                        <!-- image -->
                         <img src="image/onion.png" alt="" class="w-20 h-20">
                     </div>
                     <div>
-                        <!--star+ other text  -->
                         <i class="text-orange-500 fa-regular fa-star"></i>
                         <h4 class="text-xl font-bold">Onion 1 kg</h4>
                         <p class="font-bold">$49.99</p>
-
-
                     </div>
-
                 </div>
+    
                 <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
                     <div>
-                        <!-- image -->
                         <img src="image/potato.png" alt="" class="w-20 h-20">
                     </div>
                     <div>
-                        <!--star+ other text  -->
                         <i class="text-orange-500 fa-regular fa-star"></i>
-                        <h4 class="text-xl font-bold">Onion 1 kg</h4>
+                        <h4 class="text-xl font-bold">Potato 1 kg</h4>
                         <p class="font-bold">$49.99</p>
-
-
                     </div>
-
                 </div>
+    
                 <div class="flex items-center gap-3 p-2 bg-white rounded-xl">
                     <div>
-                        <!-- image -->
                         <img src="image/tomato.png" alt="" class="w-20 h-20">
                     </div>
                     <div>
-                        <!--star+ other text  -->
                         <i class="text-orange-500 fa-regular fa-star"></i>
-                        <h4 class="text-xl font-bold">Onion 1 kg</h4>
+                        <h4 class="text-xl font-bold">Tomato 1 kg</h4>
                         <p class="font-bold">$49.99</p>
-
-
                     </div>
-
                 </div>
-                <div class="items-center hidden gap-3 p-2 bg-white rounded-xl md:block">
-                    <div>
-                        <!-- image -->
-                        <img src="image/onion.png" alt="" class="w-20 h-20">
-                    </div>
-                    <div>
-                        <!--star+ other text  -->
-                        <i class="text-orange-500 fa-regular fa-star"></i>
-                        <h4 class="text-xl font-bold">Onion 1 kg</h4>
-                        <p class="font-bold">$49.99</p>
-
-
-                    </div>
-
-                </div>
-
-
             </div>
-
-
-        </div>
-
-
-
         </div>
     </section>
+    
 
     <!-- Arrival & Offers  -->
     <section class="mx-auto my-24 md:container">
@@ -348,7 +290,7 @@
                     <p class="text-xl text-white">Up to 20% oFF</p>
                 </div>
                 <div class="flex justify-center p-1 mt-40">
-                    <img src="image/dawat-mock-up.png" alt="" class="mt-10 bg-cover ">
+                    <img src="image/dawat-mock-up.png" alt="" class="mt-10 bg-cover border">
                 </div>
             </div>
             <!-- 40% Section -->
@@ -365,42 +307,18 @@
         </div>
     </section>
     
-    <!-- faq section -->
-     
-     <section class="mx-auto md:container">
-        <div class="collapse collapse-arrow bg-base-200">
-            <input type="radio" name="my-accordion-2" checked="checked" />
-            <div class="text-xl font-medium collapse-title">Click to open this one and close others</div>
-            <div class="collapse-content">
-              <p>hello</p>
-            </div>
-          </div>
-          <div class="collapse collapse-arrow bg-base-200">
-            <input type="radio" name="my-accordion-2" />
-            <div class="text-xl font-medium collapse-title">Click to open this one and close others</div>
-            <div class="collapse-content">
-              <p>hello</p>
-            </div>
-          </div>
-          <div class="collapse collapse-arrow bg-base-200">
-            <input type="radio" name="my-accordion-2" />
-            <div class="text-xl font-medium collapse-title">Click to open this one and close others</div>
-            <div class="collapse-content">
-              <p>hello</p>
-            </div>
-          </div>  
-     </section>
-     
+    
+    <!-- FAQ section for extra mark -->
 
 
 </body>
 <!-- fotter -->
-<footer class="text-white md:mt-[500px]  sm:mt-[600px]">
+<footer class="text-white mt-[658px] ">
 
     <div class="relative">
         <div class="">
             <div
-                class="absolute mx-auto -translate-x-1/2 -translate-y-1/2 hero bg-gray md:container rounded-2xl left-1/2 md:-top-3/2 md:-top-[100px] sm:-top-3/4">
+                class="absolute mx-auto -translate-x-1/2 -translate-y-1/2 hero bg-gray md:container rounded-2xl left-1/2 md:-top-3/2 md:-top-[100px] sm:-top[200px]">
                 <div class="">
                     <div class="p-1">
                         <img src="image/vegetable-busket.png" alt="">
@@ -459,7 +377,6 @@
                                 </path>
                             </svg>
                         </a>
-                        <a href=""><img src="image/youtube.png" alt=""></a>
                     </div>
                 </nav>
             </div>
