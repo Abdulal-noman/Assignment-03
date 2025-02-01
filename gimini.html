@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_03_Category_0002 Vatigable shope</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            font-family: 'Sora', sans-serif;
+        }
+
+        /* Simple Animations */
+        .animate-fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .animate-slide-left {
+            animation: slideLeft 1s ease-in-out;
+        }
+
+        @keyframes slideLeft {
+            from {
+                transform: translateX(-20px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .animate-bounce {
+            animation: bounce 1s infinite; /* Adjust duration as needed */
+        }
+
+        @keyframes bounce {
+            0%,
+            20%,
+            50%,
+            80%,
+            100% {
+                transform: translateY(0);
+            }
+
+            40%,
+            60% {
+                transform: translateY(-10px); /* Adjust bounce height */
+            }
+        }
+
+        .animate-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+
+        @keyframes pulse {
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
+        }
+    </style>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'green': '#179800',
+                        'deep-green': '#115414',
+                        'light-green': '#63B76D',
+                        'gray': '#EFEBE3',
+                        'white': '#FFFFFF',
+                        'deep-blue': '#102861',
+                        'light-blue': '#2A4D97'
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<header class="bg-gradient-to-t from-[#FFFFFF] to-[#EFEBE3]">
+    
+
+</header>
+
+
+
+</html>
